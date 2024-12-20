@@ -1,0 +1,5 @@
+arr= list(map(int,input().split()))
+arr1=sorted(set(arr))
+print(arr1)
+arr2=(arr1[::-1])
+print(arr2)

@@ -1,0 +1,5 @@
+arr=list(map(int,input().split()))
+arr=sorted(set(arr))
+print(arr)
+print(arr[1])
+print(arr[-2])
